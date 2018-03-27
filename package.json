@@ -1,0 +1,12 @@
+{
+  "name": "sftp-to-s3",
+  "version": "1.0.0",
+  "description": "Take a file from SFTP and upload to S3",
+  "main": "index.js",
+  "author": "Matt Ball",
+  "dependencies": {
+    "aws-sdk": "^2.214.1",
+    "node-ssh": "^5.1.1",
+    "then-fs": "^2.0.0"
+  }
+}
