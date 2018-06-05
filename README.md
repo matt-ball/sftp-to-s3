@@ -32,3 +32,9 @@ module.exports = {
 ```
 
 3. Run - `node index.js`
+
+## Specifying paths at runtime
+
+Config in `config.js` will be ignored for these values.
+
+`node index.js /Users/mattball/Documents/file.js /var/www/website/file.js my-directory/file.js`
